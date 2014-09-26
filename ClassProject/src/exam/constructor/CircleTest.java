@@ -1,7 +1,7 @@
 package exam.constructor;
 
 /*
- * Constructor, Constructor Overload
+ * 3. Constructor, Constructor Overload ------------------------
  * 
  * Class : Circle
  * Field : 반지름(radius), 색(color)

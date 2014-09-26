@@ -1,13 +1,13 @@
 package exam.fieldmethod;
 
 /*
- * Field, Method
+ * 1. Field, Method
  * 
  * Class : Rectangle
  * Field : 가로(width), 세로(height)
  * Method : 1. getter/setter
- * 			2. getArea - 면적 계산 후 반환  
- * 			3. getPerimeter - 둘레 계산 후 반환 
+ * 			2. getArea() - 면적 계산 후 반환  
+ * 			3. getPerimeter() - 둘레 계산 후 반환 
  */
 
 class Rectangle {

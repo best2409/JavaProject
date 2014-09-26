@@ -1,6 +1,7 @@
 package exam.gettersetter;
 
-/*
+/* 2. Field, Method(getter/setter) -----------------
+ * 
  * Class : Movie
  * Field : 영화제목(title), 평점(starRate), 감독(director), 연도(year)
  * Method : 1. getter/setter
