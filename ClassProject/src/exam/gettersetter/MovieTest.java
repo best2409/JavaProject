@@ -8,10 +8,13 @@ package exam.gettersetter;
  */
 
 class Movie {
+	// Field ---------------------------------------
 	private String title;
 	private int starRate;
 	private String director;
 	private int year;
+	
+	// getter/setter Method ---------------------------------------
 	public String getTitle() {
 		return title;
 	}
@@ -37,6 +40,7 @@ class Movie {
 		this.year = year;
 	}
 	
+	// Method --------------------------------------------------------
 	public void print() {
 		System.out.println("Title : " + this.title);
 		System.out.println("Star Rate : " + this.starRate);
@@ -53,7 +57,7 @@ public class MovieTest {
 		 *  1) Movie 객체 생성
 		 *  2) setter 메소드 이
 		 *  3) getter 메소드 이용
-		 *  4) print 메소드 이 
+		 *  4) print 메소드 이용 
 		*/
 		
 		Movie m1 = new Movie();

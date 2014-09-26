@@ -8,7 +8,7 @@ package exam.constructor;
  * Constructor : 1. 반지름 : 10.0, 색 : "red"   -> this() 이
  * 				 2. 매개변수 : 반지름
  * 				 3. 매개변수 : 색
- * 				 4. 매개변수 : 반지름, 
+ * 				 4. 매개변수 : 반지름, 색 
  * Method : 1. getter/setter
  */
 
@@ -40,6 +40,7 @@ class Circle {
 		 this.color = color;
 	 }
 
+	// getter/setter ------------------------------------------------------------------
 	public double getRadius() {
 		return radius;
 	}
