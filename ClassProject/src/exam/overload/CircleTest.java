@@ -2,6 +2,8 @@ package exam.overload;
 
 /*
  * 4. Method Overload
+ * - 메소드명은 같으나, 기능을 달리할 때 사용하는 방법 
+ * - 메소드명과 리턴타입은 일치, 매개변수의 타입, 개수, 순서를 다르게 하여 호출시 바인딩!
  * 
  * Class : Circle
  * Field : 반지름(radius), 색(color), 테두리(border)
@@ -82,16 +84,16 @@ public class CircleTest {
 		// TODO Auto-generated method stub
 		
 		Circle c1 = new Circle();
-		c1.drawCircle();
+		c1.drawCircle();					// Method drawCircle() #1 호출 
 		
 		Circle c2 = new Circle();
-		c2.drawCircle(20.0);
+		c2.drawCircle(20.0);				// Method drawCircle() #2 호출 
 		
 		Circle c3 = new Circle();
-		c3.drawCircle(30.0, "red");
+		c3.drawCircle(30.0, "red");			// Method drawCircle() #3 호출 
 		
 		Circle c4 = new Circle();
-		c4.drawCircle(40.0, "blue", 2);
+		c4.drawCircle(40.0, "blue", 2);		// Method drawCircle() #4 호출 
 
 	}
 
