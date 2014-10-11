@@ -5,6 +5,8 @@ package exam.constructor;
  * - Constructor : 객체 생성시 자동호출되며, 초기화 목적으로 사용하는 Method
  *               : 클래스명과 이름 일치, 리턴타입 자체가 없음 
  * - Constructor Overload : 매개변수의 개수, 타입, 순서가 다르게 하여 객체 생성시 여러가지의 초기화를 실행시킬 수 있음!
+ * - this() : 지금 실행되고 있는 객체의 다른 생성자 호출 
+ * - this : 지금 실행되고 있는 객체를 가르키는 참조변수 
  * 
  * 예제-------------------------------------------------------------------------------
  * Class : Circle
@@ -26,7 +28,7 @@ class Circle {
 		 /*this.radius = 10.0;
 		 this.color = "red";*/
 		 
-		 this(10.0, "red");
+		 this(10.0, "red");     // Constructor #4 호출!
 	 }
 	 
 	// Constructor #2
