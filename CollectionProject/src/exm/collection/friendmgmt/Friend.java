@@ -3,7 +3,6 @@ package exm.collection.friendmgmt;
 /**
  * 친구의 연락처 정보를 저장하기 위해 만든 클래스 타입
  * - 친구의 데이터를 저장하는 목적 
- * @author inayoung
  *
  */
 public class Friend {
@@ -50,7 +49,4 @@ public class Friend {
 	public void setPhoto(String photo) {
 		this.photo = photo;
 	}
-	
-	
-	
 }

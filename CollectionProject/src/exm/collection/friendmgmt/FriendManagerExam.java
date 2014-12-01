@@ -1,5 +1,8 @@
 package exm.collection.friendmgmt;
 
+/**
+ * 테스트용 클래스~ 
+ */
 public class FriendManagerExam {
 
 	public static void main(String[] args) {

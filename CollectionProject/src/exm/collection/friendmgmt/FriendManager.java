@@ -6,7 +6,6 @@ import java.util.*;
  * 친구의 연락처 정보를 관리하기 위한 클래스 
  * - addFriend() : 친구의 연락처 정보를 추가 
  * - listFriend() : 친구의 연락처 정보를 리스트로 출력 
- * @author inayoung
  *
  */
 
